@@ -1,10 +1,11 @@
 package sindhuja.bogglegameapplication;
 
+/**
+ * Created by gillelas on 3/30/2017.
+ */
 import android.os.Bundle;
 
-/**
- * Created by nathanreed on 2/5/17.
- */
+
 
 public class RulesActivity extends HomeScreen {
     @Override

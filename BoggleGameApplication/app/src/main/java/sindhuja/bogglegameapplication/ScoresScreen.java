@@ -1,5 +1,8 @@
 package sindhuja.bogglegameapplication;
 
+/**
+ * Created by gillelas on 3/30/2017.
+ */
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -38,16 +41,7 @@ public class ScoresScreen extends HomeScreen {
         String title = levels.get(Integer.parseInt(difficulty)) + " Scores";
         titleView.setText(title);
 
-        final Button resetButton = (Button) findViewById(R.id.reset_button);
 
-        resetButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                HighScorePojo highScorePojo = new HighScorePojo(ScoresScreen.this, difficulty);
-                try {
-                    highScorePojo.resetScores();
-                } catch (Exception e) {e.printStackTrace();}
-            }
-        });
 
     }
 

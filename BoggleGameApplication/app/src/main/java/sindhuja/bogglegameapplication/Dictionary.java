@@ -1,9 +1,13 @@
 package sindhuja.bogglegameapplication;
 
+/**
+ * Created by gillelas on 3/30/2017.
+ */
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+
 
 
 public class Dictionary {

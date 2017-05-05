@@ -1,4 +1,8 @@
 package sindhuja.bogglegameapplication;
+/**
+ * Created by gillelas on 3/30/2017.
+ */
+
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;

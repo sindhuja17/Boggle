@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/mainLayout"
-    android:background="@drawable/screen_bg">
+    android:background="@drawable/bg">
 
     <TextView
         android:text="Timer: 0:00"
@@ -39,12 +39,17 @@
     <Button
         android:id="@+id/button0"
         android:text="0"
-        android:textColor="#000000"
-        style="@style/number_btn_style"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:background="@drawable/color3_bg"
         android:layout_alignParentStart="true"
+
         />
 
     <Button
@@ -52,24 +57,21 @@
         android:layout_height="70dp"
         android:layout_width="70dp"
         android:text="1"
-        android:background="@drawable/color3_bg"
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_toRightOf="@id/button0"
         android:layout_alignTop="@id/button0"
+
         />
     <Button
         android:id="@+id/button2"
         android:layout_height="70dp"
         android:layout_width="70dp"
         android:text="2"
-        android:background="@drawable/color3_bg"
-
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_toRightOf="@id/button1"
         android:layout_alignTop="@id/button1"
-
 
         />
 
@@ -78,13 +80,10 @@
         android:layout_height="70dp"
         android:layout_width="70dp"
         android:text="3"
-        android:background="@drawable/color3_bg"
-
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_toRightOf="@id/button2"
         android:layout_alignTop="@id/button2"
-
         />
 
     <!--Row 2-->
@@ -93,8 +92,6 @@
         android:layout_height="70dp"
         android:layout_width="70dp"
         android:text="4"
-        android:background="@drawable/color3_bg"
-
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_below="@id/button0"
@@ -106,28 +103,22 @@
         android:layout_height="70dp"
         android:layout_width="70dp"
         android:text="5"
-        android:background="@drawable/color3_bg"
-
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_toRightOf="@id/button4"
         android:layout_alignTop="@id/button4"
-
-         />
+        />
 
     <Button
         android:id="@+id/button6"
         android:layout_height="70dp"
         android:layout_width="70dp"
         android:text="6"
-        android:background="@drawable/color3_bg"
-
         android:textStyle="bold"
         android:textSize="30dp"
         android:layout_toRightOf="@id/button5"
         android:layout_alignTop="@id/button5"
-
-         />
+        />
 
     <Button
         android:id="@+id/button7"
@@ -135,12 +126,9 @@
         android:layout_width="70dp"
         android:text="7"
         android:textStyle="bold"
-        android:background="@drawable/color3_bg"
-
         android:textSize="30dp"
         android:layout_toRightOf="@id/button6"
         android:layout_alignTop="@id/button6"
-
         />
 
     <!--Row 3 -->
@@ -151,12 +139,10 @@
         android:layout_width="70dp"
         android:text="8"
         android:textStyle="bold"
-        android:background="@drawable/color3_bg"
-
         android:textSize="30dp"
         android:layout_below="@id/button4"
         android:layout_alignLeft="@id/button4"
-         />
+        />
 
     <Button
         android:id="@+id/button9"
@@ -165,8 +151,6 @@
         android:text="9"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:background="@drawable/color3_bg"
-
         android:layout_toRightOf="@id/button8"
         android:layout_alignTop="@id/button8"
         />
@@ -176,11 +160,11 @@
         android:layout_height="70dp"
         android:layout_width="70dp"
         android:text="10"
-        android:background="@drawable/color3_bg"
+        android:textStyle="bold"
         android:textSize="30dp"
         android:layout_toRightOf="@id/button9"
         android:layout_alignTop="@id/button9"
-       />
+        />
 
     <Button
         android:id="@+id/button11"
@@ -189,11 +173,9 @@
         android:text="11"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:background="@drawable/color3_bg"
-
         android:layout_toRightOf="@id/button10"
         android:layout_alignTop="@id/button10"
-       />
+        />
 
 
 
@@ -205,8 +187,6 @@
         android:text="12"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:background="@drawable/color3_bg"
-
         android:layout_below="@id/button8"
         android:layout_alignLeft="@id/button8"
         />
@@ -217,12 +197,9 @@
         android:layout_width="70dp"
         android:text="13"
         android:textStyle="bold"
-        android:background="@drawable/color3_bg"
-
         android:textSize="30dp"
         android:layout_toRightOf="@id/button12"
         android:layout_alignTop="@id/button12"
-
         />
 
     <Button
@@ -232,8 +209,6 @@
         android:text="14"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:background="@drawable/color3_bg"
-
         android:layout_toRightOf="@id/button13"
         android:layout_alignTop="@id/button13"
         />
@@ -245,14 +220,12 @@
         android:text="15"
         android:textStyle="bold"
         android:textSize="30dp"
-        android:background="@drawable/color3_bg"
-
         android:layout_toRightOf="@id/button14"
         android:layout_alignTop="@id/button14"
         />
 
     <TextView
-        android:text="Welcome to Boggle"
+        android:text="Boggle Game"
         android:textSize="20dp"
         android:gravity="center"
         android:layout_width="match_parent"
@@ -261,9 +234,9 @@
         android:id="@+id/text_display_screen"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        style="@style/btn_style"
         android:layout_marginTop="15dp"
-        android:textColor="@android:color/white"
+
+        android:textColor="@android:color/black"
         android:textStyle="bold"
         />
 
@@ -277,7 +250,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="5dp"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:layout_marginRight="5dp"/>
 
     <Button
@@ -287,12 +260,11 @@
         android:layout_below="@id/text_display_screen"
         android:layout_marginTop="20dp"
         android:layout_marginRight="15dp"
-        style="@style/btn_style"
         android:layout_marginLeft="15dp"
         android:id="@+id/button_submitWord"
-        android:text="SUBMIT"
+        android:text="SUBMIT WORD"
         android:textStyle="bold"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         />
 
     <Button
@@ -304,9 +276,8 @@
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
         android:text="CANCEL"
-        style="@style/btn_style"
         android:textStyle="bold"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:id="@+id/button_cancel"
         />
 
@@ -314,4 +285,3 @@
 
 
 </RelativeLayout>
-

@@ -1,12 +1,13 @@
 package sindhuja.bogglegameapplication;
 
+/**
+ * Created by gillelas on 3/30/2017.
+ */
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-/**
- * Created by nathanreed on 2/18/17.
- */
+
 
 public class SlideSelect {
     LinearLayout boardLayout;

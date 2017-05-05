@@ -1,5 +1,8 @@
 package sindhuja.bogglegameapplication;
 
+/**
+ * Created by gillelas on 3/30/2017.
+ */
 import android.app.Activity;
 import android.graphics.Color;
 import android.view.LayoutInflater;

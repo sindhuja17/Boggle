@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:baselineAligned="false"
-    android:background="@drawable/screen_bg">
+    android:background="@drawable/bg">
 
     <ListView
         android:layout_width="match_parent"
@@ -13,10 +13,6 @@
         android:id="@+id/list"
         android:layout_weight="9"/>
 
-    <Button
-        android:text="Back"
-        style="@style/btn_style"
-        android:layout_gravity="center"
-        android:id="@+id/button_return" />
+
 </LinearLayout>
 

@@ -11,10 +11,10 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-
 /**
- * Created by thanhhoang on 2/18/17.
+ * Created by gillelas on 3/30/2017.
  */
+
 
 public class BoggleComple extends Activity {
     private String name = "";

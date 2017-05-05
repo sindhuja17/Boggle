@@ -1,5 +1,8 @@
 package sindhuja.bogglegameapplication;
 
+/**
+ * Created by gillelas on 3/30/2017.
+ */
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -23,7 +26,7 @@ public class HomeScreen extends AppCompatActivity {
 
         play_game_btn = (Button) findViewById(R.id.play_game_btn);
         scores_btn = (Button) findViewById(R.id.scores_btn);
-        rules_btn = (Button) findViewById(R.id.rules_btn);
+        //rules_btn = (Button) findViewById(R.id.rules_btn);
 
     }
     public void rules(View view)

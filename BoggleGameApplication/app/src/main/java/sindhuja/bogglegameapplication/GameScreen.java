@@ -1,5 +1,8 @@
 package sindhuja.bogglegameapplication;
 
+/**
+ * Created by gillelas on 3/30/2017.
+ */
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
@@ -248,18 +251,18 @@ public class GameScreen extends Activity implements View.OnTouchListener, Sensor
                 int ret = player.updateInfor(tInputWord, player.allValidWords);
 
                 if (ret == -1) {
-                    text_display.setText("Invalid word!");
+                    text_display.setText("Word does not exist, Try Again!");
                     MediaPlayer mperr = MediaPlayer.create(getApplicationContext(), R.raw.error);
                     mperr.start();
                 }
                 else if (ret == 0) {
-                    text_display.setText("Invalid, \"" + tInputWord + "\" found!");
+                    text_display.setText("This word: , \"" + tInputWord + "\" is already found!");
                     MediaPlayer mpallreadyfound = MediaPlayer.create(getApplicationContext(), R.raw.bip);
                     mpallreadyfound.start();
 
                 }
                 else if (ret == 1) {
-                    text_display.setText("Valid Word!");
+                    text_display.setText("Word Exists!");
                     MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.game_sound_correct);
                     mp.start();
 
@@ -431,7 +434,7 @@ public class GameScreen extends Activity implements View.OnTouchListener, Sensor
     private void resetBoardButtons() {
         for (int i = 0; i < BoardButton.length; i++) {
             BoardButton[i].setTextColor(Color.BLACK);
-            BoardButton[i].setBackgroundResource(R.drawable.number_bg);
+            BoardButton[i].setBackgroundResource(R.drawable.background1);
         }
     }
 

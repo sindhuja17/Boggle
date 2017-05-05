@@ -6,33 +6,45 @@
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/screen_bg"
+    android:background="@drawable/boggle"
     >
 
     <Button
         android:textStyle="bold"
         android:text="play"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="75dp"
+        android:paddingTop="0dp"
+        android:textSize="35dp"
         android:id="@+id/play_game_btn"
         android:onClick="playButton"
-        style="@style/btn_style"
+
         />
 
 
     <Button
         android:textStyle="bold"
         android:text="scores"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="75dp"
+        android:paddingTop="0dp"
+        android:textSize="35dp"
         android:id="@+id/scores_btn"
         android:onClick="scores"
-        style="@style/btn_style"
+
         />
 
-    <Button
-        android:textStyle="bold"
-        android:text="rules"
-        style="@style/btn_style"
-        android:onClick="rules"
-        android:id="@+id/rules_btn"
-        />
+
 
 
 

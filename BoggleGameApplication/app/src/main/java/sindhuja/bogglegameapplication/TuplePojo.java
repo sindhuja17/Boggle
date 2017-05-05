@@ -1,7 +1,9 @@
 package sindhuja.bogglegameapplication;
 
 
-
+/**
+ * Created by gillelas on 3/30/2017.
+ */
 public class TuplePojo<String, Integer> {
     private String name;
     private Integer score;

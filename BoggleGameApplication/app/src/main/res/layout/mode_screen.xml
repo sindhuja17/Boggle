@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:background="@drawable/screen_bg"
+    android:background="@drawable/bg"
     android:weightSum="1"
     android:layout_height="match_parent">
 
     <TextView
         android:layout_marginTop="20dp"
         android:text="Choose Mode"
-        android:textColor="@color/white"
+        android:textColor="@color/colorPrimary"
         android:includeFontPadding="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,19 +20,39 @@
         android:textSize="30dp"
         android:layout_weight="0.13" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="match_parent">
+
 
         <Button
-            android:text="1 player"
+            android:text="Single player"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="75dp"
+            android:paddingTop="0dp"
+            android:textSize="35dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
             android:onClick="singlePlayer"
-            style="@style/btn_style"
+
             android:id="@+id/single_player"
             />
+        <Button
+            android:text="Multi player"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:onClick="singlePlayer"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="75dp"
+            android:paddingTop="0dp"
+            android:textSize="35dp"
+            android:layout_height="60dp"
+            android:layout_width="250dp"
+            android:id="@+id/multi_player"
+            />
 
-    </LinearLayout>
+
 
 
 
