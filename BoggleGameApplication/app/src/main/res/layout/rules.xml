@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_bg">
+
+    <TextView
+        android:text="@string/text_rules"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:id="@+id/gameTitle"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="40sp"
+        android:fadingEdge="horizontal"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:typeface="serif"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:layout_weight="0.10">
+
+
+        <TextView
+            android:textSize="15dp"
+            android:text="@string/text_rules_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/white"
+            />
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_bg"
+    >
+
+    <Button
+        android:textStyle="bold"
+        android:text="play"
+        android:id="@+id/play_game_btn"
+        android:onClick="playButton"
+        style="@style/btn_style"
+        />
+
+
+    <Button
+        android:textStyle="bold"
+        android:text="scores"
+        android:id="@+id/scores_btn"
+        android:onClick="scores"
+        style="@style/btn_style"
+        />
+
+    <Button
+        android:textStyle="bold"
+        android:text="rules"
+        style="@style/btn_style"
+        android:onClick="rules"
+        android:id="@+id/rules_btn"
+        />
+
+
+
+</LinearLayout>
